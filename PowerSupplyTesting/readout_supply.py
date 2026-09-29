@@ -4,7 +4,8 @@ import pyvisa
 rm = pyvisa.ResourceManager('@py')
 
 # Replace with your actual instrument VISA address found from list_resources()
-visa_address = 'USB0::0x0957::0x3F07::MYXXXXXXXX::0::INSTR'
+#visa_address = 'USB0::0x0957::0x3F07::MYXXXXXXXX::0::INSTR'
+visa_address = 'USB0::10893::36609::CN64310143::0::INSTR'
 
 try:
   # Open connection to power supply
